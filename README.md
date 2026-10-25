@@ -40,9 +40,13 @@ python3 <xsdk>/tools/store_catalogue.py check catalogue.json
 ```
 
 `needs` shows on one line of the app's page, which holds about 40 characters; the store cuts a longer one short.
-Upload the zip to that release as it is: the catalogue holds its SHA-256, and any other zip is refused. Ids are
-lower-case letters, digits and `-`; each name in a package has 37 characters at most, as the store writes each file as
-`<name>.part` before renaming it, and FATX takes 42.
+Upload the zip to that release as it is: the catalogue holds its SHA-256, and any other zip is refused. Ids are up to
+32 lower-case letters, digits and `-`.
+
+FATX, the console's file system, takes up to 42 characters in a file or folder name and 250 in a path, not counting
+the drive ([FATXplorer](https://fatxplorer.eaton-works.com/)). The store writes each file as `<name>.part` before
+renaming it, so each file or folder name in a package has 37 characters at most, and `check` refuses a longer one.
+Paths have room to spare: with `\apps\<id>\` in front, each path in a package can have over 200 characters.
 
 ## Signing
 
