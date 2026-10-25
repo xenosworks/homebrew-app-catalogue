@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "serial": 1,
+  "serial": 2,
   "url": "https://xenosworks.github.io/homebrew-app-catalogue/catalogue.json",
   "categories": [
     {
@@ -272,6 +272,50 @@
         }
       ],
       "screenshot_sha256": "6edfa3044bbcc8d7e6f2350ff37bef590a5486d748bc68b2d63aadd173a257d7"
+    },
+    {
+      "id": "starship",
+      "name": "Starship",
+      "author": "xenosworks",
+      "category": "ports",
+      "sentence": "The PC port of a classic N64 space shooter, at 1280x720 and the game's own 30 fps.",
+      "needs": "sf64.o2r from your own ROM, beside it",
+      "changes": "The first release in the store.",
+      "source": "https://github.com/xenosworks/starship-xenon",
+      "license": "CC0-1.0",
+      "screenshot": "shots/starship.png",
+      "launch": "starship.xex",
+      "title_id": "53544152",
+      "version": "0.1.0.0",
+      "version_number": 16777216,
+      "package": {
+        "url": "https://github.com/xenosworks/starship-xenon/releases/download/xenon-0.1.0.0/starship-0.1.0.0.zip",
+        "size": 5828244,
+        "sha256": "110eab58c407443a90fd6d265b82d636c0f70024ba475915504bb3f7ee881035"
+      },
+      "files": [
+        {
+          "path": "LICENSE.md",
+          "size": 7047,
+          "sha256": "6d489af6292662d9e36d34ce49423784984a5f6e41d7b58f49b01264df59fa03"
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "size": 81571,
+          "sha256": "eceb7692f48c6982b3f8cedc193b1c0ef53aebf5c24e6ca145e93d8ff233273e"
+        },
+        {
+          "path": "starship.o2r",
+          "size": 10536,
+          "sha256": "b78b0ba24025c270fe46ec8af81d97c8ec25518095bf2e5df4d46140ef7e68e9"
+        },
+        {
+          "path": "starship.xex",
+          "size": 13668352,
+          "sha256": "ae42acd90ff6902c05ebeaa75c79bcd1d4882277b9342c5e32896f7707e3dddd"
+        }
+      ],
+      "screenshot_sha256": "74c2e7b93785d58563a748dba3b2765b3cfbfa8525168f3e41602416aaa442b9"
     },
     {
       "id": "homebrew-app-store",
