@@ -1,0 +1,3 @@
+# The signature covers catalogue.json byte for byte, so git never changes its line endings.
+catalogue.json -text
+catalogue.json.sig binary

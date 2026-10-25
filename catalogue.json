@@ -1,0 +1,321 @@
+{
+  "format": 1,
+  "serial": 1,
+  "url": "https://xenosworks.github.io/homebrew-app-catalogue/catalogue.json",
+  "categories": [
+    {
+      "id": "emulators",
+      "name": "Emulators",
+      "sentence": "Other consoles' games on the Xbox 360, played from your own disc images."
+    },
+    {
+      "id": "ports",
+      "name": "Ports",
+      "sentence": "Games whose source is open, brought to the Xbox 360, played with your own copy of the game."
+    },
+    {
+      "id": "tools",
+      "name": "Tools",
+      "sentence": "Things for the console itself, this store among them."
+    }
+  ],
+  "apps": [
+    {
+      "id": "swanstation",
+      "name": "SwanStation",
+      "author": "xenosworks",
+      "category": "emulators",
+      "sentence": "A PlayStation emulator with a recompiler, playing your own disc images at full speed.",
+      "needs": "A PS1 BIOS beside it, disc images in games\\",
+      "changes": "The first release in the store.",
+      "source": "https://github.com/xenosworks/swanstation-xenon",
+      "license": "GPL-3.0",
+      "screenshot": "shots/swanstation.png",
+      "launch": "swanstation.xex",
+      "title_id": "58535353",
+      "version": "0.1.0.0",
+      "version_number": 16777216,
+      "package": {
+        "url": "https://github.com/xenosworks/swanstation-xenon/releases/download/xenon-0.1.0.0/swanstation-0.1.0.0.zip",
+        "size": 2196420,
+        "sha256": "327c8b65947c2eb97989ae997856d05113d864b1773cc3519e9da9fc9907e056"
+      },
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "size": 35821,
+          "sha256": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b"
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "size": 15824,
+          "sha256": "a0f7780a5371237f34171ddbf2c3c0cfebc78bf31b755d0b3cf67bf8c759169e"
+        },
+        {
+          "path": "swanstation.xex",
+          "size": 4968448,
+          "sha256": "777af1706f709be229fa890155dddc66c0687d3cce4ed84d38b49baff9f93709"
+        }
+      ],
+      "screenshot_sha256": "a6a720b1a649658c79a0b3c112163729da3af7c646b7dcd300fcb7a573f8b6f9"
+    },
+    {
+      "id": "dusklight",
+      "name": "Dusklight",
+      "author": "xenosworks",
+      "category": "ports",
+      "sentence": "The PC port of a classic GameCube adventure, at 1280x720 with 4 samples of multisampling.",
+      "needs": "Your GZ2E01 disc as dusklight.iso beside it",
+      "changes": "Xbox 360 button prompts on the HUD, since beta 1.",
+      "source": "https://github.com/xenosworks/dusklight-xenon",
+      "license": "CC0-1.0",
+      "screenshot": "shots/dusklight.png",
+      "launch": "dusklight.xex",
+      "title_id": "4455534B",
+      "version": "0.1.0.0",
+      "version_number": 16777216,
+      "package": {
+        "url": "https://github.com/xenosworks/dusklight-xenon/releases/download/xenon-0.1.0.0/dusklight-0.1.0.0.zip",
+        "size": 21359103,
+        "sha256": "59b69f3e447c83165ff034d407316a1834aa6967408e935a8e51daa080993c19"
+      },
+      "files": [
+        {
+          "path": "LICENSE.md",
+          "size": 7167,
+          "sha256": "a19d58aaab15c4d0019e569d1c073d1b5286fdd37dbeee7a58a7d1ae76045ae1"
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "size": 106609,
+          "sha256": "ceab1a19383d51d7e5e96ccbcd72de4cc26cf90f64b6320e6f296e8c7cb92f96"
+        },
+        {
+          "path": "dusklight.xex",
+          "size": 36429824,
+          "sha256": "27b2a42df9f39ba00a2b8dbfe491c3ec35c203c40af91bf64a26a1bd69c46c9f"
+        },
+        {
+          "path": "res/AlegreyaSC-Bold.ttf",
+          "size": 355388,
+          "sha256": "f0edaf1f289b7eb1b94ba9290146d57e5b413364bcf723cd0196779faa557afa"
+        },
+        {
+          "path": "res/AlegreyaSC-Regular.ttf",
+          "size": 345056,
+          "sha256": "4b93934f4cf51aedc23bbadc4028811b6fd16d97cd7425c902015ae77bfe55ab"
+        },
+        {
+          "path": "res/FiraSans-Bold.ttf",
+          "size": 473876,
+          "sha256": "74b477a3e2b7c745e6dac8c01764c8fd82e53763b47ef1eccd24dce36d2ff71f"
+        },
+        {
+          "path": "res/FiraSans-Regular.ttf",
+          "size": 440984,
+          "sha256": "3dabf3d48bf4599f95cffd92f99ea426a014d5311f52a5eb5ec3af265e97cd97"
+        },
+        {
+          "path": "res/FiraSansCondensed-Bold.ttf",
+          "size": 473220,
+          "sha256": "382ee5d7a8f4d969c2c64d973fccda4f8a4a47da038cdd0c6eea477e0e5dd24a"
+        },
+        {
+          "path": "res/FiraSansCondensed-Regular.ttf",
+          "size": 443608,
+          "sha256": "c5d088a35d3b957663a215d9bdda786d2ca6709ae756c97086c4178889f97b67"
+        },
+        {
+          "path": "res/Inter-Bold.ttf",
+          "size": 342248,
+          "sha256": "b281126a9f79c24f93d1da90344d2558b2bdf38cb5a25d15377317e98256022a"
+        },
+        {
+          "path": "res/Inter-Regular.ttf",
+          "size": 340556,
+          "sha256": "712fb3ae7568cc3812776eda49922ff8bca5521cb02c006dec80040e9260c262"
+        },
+        {
+          "path": "res/MaterialSymbolsRounded-Regular.ttf",
+          "size": 1196044,
+          "sha256": "2014db4bf7ba90bfd5de9378b48b63a4a8cd89b446b2c8cdc038c43d437ce3e7"
+        },
+        {
+          "path": "res/NotoMono-Regular.ttf",
+          "size": 107848,
+          "sha256": "41fd7ccc82375e2a1e47f0cc2c941c14d7c99ba2f57cf69c9f738d07fb257686"
+        },
+        {
+          "path": "res/icon.png",
+          "size": 1129674,
+          "sha256": "9c4f8c6fc4e86a8be8d709ea6d6952239d925b33c7e8b229289507425a153f77"
+        },
+        {
+          "path": "res/logo.png",
+          "size": 657652,
+          "sha256": "4f68a903ec8bd88c5582a42d099a68150c4d3ee31a7a1b7a339311bda5ab4b5f"
+        },
+        {
+          "path": "res/org-icon-center.png",
+          "size": 2341,
+          "sha256": "795db8fd05fd4c2e9eb0b6c7e0b3ffe897be9c0c34fcd9f84b1898096bdabd37"
+        },
+        {
+          "path": "res/org-icon-inner.png",
+          "size": 13181,
+          "sha256": "44052fb8a2f8dab6e38cd22505ec974404e6adf03a25cbdc6f1aef7417b583bb"
+        },
+        {
+          "path": "res/org-icon-outer.png",
+          "size": 28370,
+          "sha256": "a458b525473bcabbd6fda4fe39f4b66622cb84e6cc4ca2a748919ac2d62bc65d"
+        },
+        {
+          "path": "res/org-icon.png",
+          "size": 49709,
+          "sha256": "702d1bcbd25342db6ef770bdd8766e4d3d373cb2abd494d8bb6f2b418f6ed790"
+        },
+        {
+          "path": "res/prelaunch-bg.png",
+          "size": 1401845,
+          "sha256": "3fbb05662e13c9dc86f46feef83e1064b2e16b3a248d57081df3000dcd1a1385"
+        },
+        {
+          "path": "res/rml/command_console.rcss",
+          "size": 1857,
+          "sha256": "4b7af867621d396ee09f3e95b74e06a2d8e1315c6099130d511b2946785e45dc"
+        },
+        {
+          "path": "res/rml/controls.rcss",
+          "size": 4824,
+          "sha256": "2a4fe5a94f878f1300f8b9d1b697d5e70472064f17decac30be6c61ddbeceee7"
+        },
+        {
+          "path": "res/rml/global.rcss",
+          "size": 4807,
+          "sha256": "a53e27cba1ef1209836deada2d72140c20e7914a36615c5db077ef7fc41ebc76"
+        },
+        {
+          "path": "res/rml/logs.rcss",
+          "size": 2104,
+          "sha256": "2115515924c0e6215916e7ffbc7b3738a0ed2cee0ae6cc7428faf0166511c830"
+        },
+        {
+          "path": "res/rml/mod_browser.rcss",
+          "size": 17727,
+          "sha256": "599d079b21d1c27b9f2c94629be80c60dde4fecf4c26291ee9fb9fc4e64ee39c"
+        },
+        {
+          "path": "res/rml/mod_common.rcss",
+          "size": 763,
+          "sha256": "fe5dba015dd3190e57702fd3081f4a861bd1af27b60551d8ba04e736e47394da"
+        },
+        {
+          "path": "res/rml/mods.rcss",
+          "size": 8540,
+          "sha256": "31e26df34b8222a9c21a0ef4c68af46506886b796c254ef2a0247197de0bafc0"
+        },
+        {
+          "path": "res/rml/overlay.rcss",
+          "size": 7216,
+          "sha256": "4605540052ac3a78f558e35c7d970a02d93fc84571c0e18e10432e1640569212"
+        },
+        {
+          "path": "res/rml/popover.rcss",
+          "size": 4709,
+          "sha256": "7a4278490027acc62e04cc68a5641165ee253bd93072f2bc85c8f27ec1b448b9"
+        },
+        {
+          "path": "res/rml/popup.rcss",
+          "size": 856,
+          "sha256": "122c7f532d0e0a73c372065fd0b1dd7e88f117c35891c346236214a15204d689"
+        },
+        {
+          "path": "res/rml/prelaunch.rcss",
+          "size": 12262,
+          "sha256": "a01a04b4151a7a49fde4458e90ef6d177adf85692d618ec71563f642234fbfcb"
+        },
+        {
+          "path": "res/rml/saves.rcss",
+          "size": 1620,
+          "sha256": "db311d7f55220e993bd002a9e93aeee097e5b2e7b83b270a521dd8f10a37f2af"
+        },
+        {
+          "path": "res/rml/tabbing.rcss",
+          "size": 2467,
+          "sha256": "556585c130c1ad45b7eee3cd2bca972f5e1677e028faa91c00ede5a3e6fe1d55"
+        },
+        {
+          "path": "res/rml/theme.rcss",
+          "size": 2446,
+          "sha256": "27840873f638ceb346225a915b230067686cb376ede5f5710009fcceacceb641"
+        },
+        {
+          "path": "res/rml/touch_controls.rcss",
+          "size": 7343,
+          "sha256": "3e9de5f4b44ebdc8e8214db6ede0953b812f1207c81290e0507004f184342c32"
+        },
+        {
+          "path": "res/rml/touch_controls_editor.rcss",
+          "size": 3506,
+          "sha256": "e3e98e31e44bd5be87510d43016be98a9f991886e29bff31339e1dcff3b629a7"
+        },
+        {
+          "path": "res/rml/tuner.rcss",
+          "size": 2970,
+          "sha256": "d690935d9394417562ac4198735bfe2f648d65f8c69ed41c2e59335b72fd22b6"
+        },
+        {
+          "path": "res/rml/window.rcss",
+          "size": 12476,
+          "sha256": "123906275652a2e468636d5af1561956e6d033d243c2ec6b6576249797172d82"
+        }
+      ],
+      "screenshot_sha256": "6edfa3044bbcc8d7e6f2350ff37bef590a5486d748bc68b2d63aadd173a257d7"
+    },
+    {
+      "id": "homebrew-app-store",
+      "name": "Homebrew App Store",
+      "author": "xenosworks",
+      "category": "tools",
+      "sentence": "Find, install, update and launch Xbox 360 homebrew.",
+      "needs": "",
+      "changes": "The first release.",
+      "source": "https://github.com/xenosworks/homebrew-app-store",
+      "license": "MIT",
+      "screenshot": "shots/homebrew-app-store.png",
+      "launch": "homebrew_app_store.xex",
+      "title_id": "58534153",
+      "version": "0.1.0.0",
+      "version_number": 16777216,
+      "package": {
+        "url": "https://github.com/xenosworks/homebrew-app-store/releases/download/v0.1.0.0/homebrew-app-store-0.1.0.0.zip",
+        "size": 1883774,
+        "sha256": "44796afc62b577fbb9be65359e0a1de97d6ea794869fae645983bfc866a16958"
+      },
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "size": 1061,
+          "sha256": "61f498176b451c424b17b2550bfa64800db695936e58e67dc05feff68fce69de"
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "size": 11148,
+          "sha256": "27d6640de6106261679871e61c6e071416d2d73fc2fc352ad0dcf87d9f3b4e38"
+        },
+        {
+          "path": "cacert.pem",
+          "size": 188900,
+          "sha256": "a41b5d356aea97a529fe27e0f7316d2f9d946d75927476cf9cf1b90637d00505"
+        },
+        {
+          "path": "homebrew_app_store.xex",
+          "size": 3735552,
+          "sha256": "0b0aa7c227be84426bb6ae5eda3382ca7474e00093d251767e3139b161a8193e"
+        }
+      ],
+      "screenshot_sha256": "58b98afc7d3f574ec73f61b827e0613c9a6ea6fc8109c6b93788941e58aa25cc"
+    }
+  ]
+}
