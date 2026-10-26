@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "serial": 2,
+  "serial": 3,
   "url": "https://xenosworks.github.io/homebrew-app-catalogue/catalogue.json",
   "categories": [
     {
@@ -279,19 +279,19 @@
       "author": "xenosworks",
       "category": "ports",
       "sentence": "The PC port of a classic N64 space shooter, at 1280x720 and the game's own 30 fps.",
-      "needs": "sf64.o2r from your own ROM, beside it",
-      "changes": "The first release in the store.",
+      "needs": "Your US 1.0 or 1.1 ROM beside it, once",
+      "changes": "Makes sf64.o2r from your ROM on its first run, so no PC is needed.",
       "source": "https://github.com/xenosworks/starship-xenon",
       "license": "CC0-1.0",
       "screenshot": "shots/starship.png",
       "launch": "starship.xex",
       "title_id": "53544152",
-      "version": "0.1.0.0",
-      "version_number": 16777216,
+      "version": "0.2.0.0",
+      "version_number": 33554432,
       "package": {
-        "url": "https://github.com/xenosworks/starship-xenon/releases/download/xenon-0.1.0.0/starship-0.1.0.0.zip",
-        "size": 5828244,
-        "sha256": "110eab58c407443a90fd6d265b82d636c0f70024ba475915504bb3f7ee881035"
+        "url": "https://github.com/xenosworks/starship-xenon/releases/download/xenon-0.2.0.0/starship-0.2.0.0.zip",
+        "size": 6783536,
+        "sha256": "5c004dc8338897ca8da08557561972ed4a8b25598167748637991537bd93437b"
       },
       "files": [
         {
@@ -301,18 +301,523 @@
         },
         {
           "path": "THIRD_PARTY_NOTICES.md",
-          "size": 81571,
-          "sha256": "eceb7692f48c6982b3f8cedc193b1c0ef53aebf5c24e6ca145e93d8ff233273e"
+          "size": 94545,
+          "sha256": "81bbce3cf1afbf01cf38ba3c5b564b5f223fac31f1af76097c432665a69df2c7"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_7_ti_1.yaml",
+          "size": 8660,
+          "sha256": "b7a8d2eee37b82aaf35823831df0b1a98689f995568f37171b474fd605e8c1a9"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_7_ti_2.yaml",
+          "size": 2280,
+          "sha256": "436ebcd69a8d08ddf7a7c561273619df7f9caaf37b727e7c0485d7d6aa9b5414"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_8_ti.yaml",
+          "size": 3370,
+          "sha256": "062e4d22870df0e3babfd066927356d4feb776d2475e2ef292969432811497ea"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_9_ti.yaml",
+          "size": 2075,
+          "sha256": "7877dfdc1fef469307eb576b75a27a05ddb1b442c4ee156aa182cdea684e0aa2"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_A_ti.yaml",
+          "size": 1815,
+          "sha256": "9c90ba2c08cf2d818303e64260de98826845373fe2fb1a7a2fa5a8bd5b08382e"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_allies.yaml",
+          "size": 3923,
+          "sha256": "7d6dec91b881a584916b9a55ef841f274c6c4cf9557aa2a1c8a8ad825342d392"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_andross.yaml",
+          "size": 8978,
+          "sha256": "63b89e436a8f2efcf11454d9ac8a39ccc549026c966e5c05484b827c125d4ade"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_aquas.yaml",
+          "size": 23857,
+          "sha256": "789e6c750e20a62315e83bb4489e1df07a99319cdacceb5f1f1635d50b0c779b"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_area_6.yaml",
+          "size": 9324,
+          "sha256": "8ab750e9281bfbb438c5407124bc81f3b7e292ee36a31ead2e1c4eb4125f0e20"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_arwing.yaml",
+          "size": 7457,
+          "sha256": "57290a7b866ef473a207acc74c8a4141f13385de1e09f244c344e7ab970352b1"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_audio.yaml",
+          "size": 787,
+          "sha256": "fab30c35a562fa47d25f22c94add09f55075b1da3bf0230c474d40f88480e6b3"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_bg_planet.yaml",
+          "size": 4725,
+          "sha256": "9c20438ca5f368a03f275642e5a2e4da073324c8e007ec8be9cf0ade76808d3a"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_bg_space.yaml",
+          "size": 3314,
+          "sha256": "b77ee9264684f40a92998f396a467434dafcbb3816730803f611639848f6e80c"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_blue_marine.yaml",
+          "size": 3524,
+          "sha256": "d3a4faf9beb831bb380528da43784f0b3ad2286d745679a06cbec8980b779bfa"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_bolse.yaml",
+          "size": 6498,
+          "sha256": "37c3c56bcc14477d2705a530a9d8dd787f9afc1b4a866e53548880f9c125f98f"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_common.yaml",
+          "size": 35788,
+          "sha256": "3ea2b8558875b0fbc71f91b1ee0f63e848a55386208ecc8b8bda77d8eee22b41"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_corneria.yaml",
+          "size": 18904,
+          "sha256": "86cc3535c1ea5abdde8bfc133bdf74bb2d8992505ae7222fcaab6b1b1c070683"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_ending.yaml",
+          "size": 6610,
+          "sha256": "53422700d2376d4aa0e616b0341ec971e9811e3ba676e22fa89374be55b8e433"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_ending_award_back.yaml",
+          "size": 328,
+          "sha256": "c0871affc064a813e9210853aa572702c423293ab7edb35a6b4d389c3c33e290"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_ending_award_front.yaml",
+          "size": 329,
+          "sha256": "e2182fe3be8f5a615c5173a431512a8bd9da8ff6174fe0d828151a68159624d4"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_ending_expert.yaml",
+          "size": 472,
+          "sha256": "44281e4c92f69e2202a72ae7e5b48b595889216214ea524b4b634d72bc1acf2b"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_enmy_planet.yaml",
+          "size": 4173,
+          "sha256": "dd5aa52bb6104aec3d30536720d3177053afee7593f4323bdd31991eac43ead2"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_enmy_space.yaml",
+          "size": 4708,
+          "sha256": "01d154d338ab054e2e91e1bc4b8ef202265dd365fbc79f6d4bdfe252bc6e7be5"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_font_3d.yaml",
+          "size": 2913,
+          "sha256": "0fcbf7a10fd268a1aaab4928a34f8f14c63b0c3a4bce1fb9787df61f854ff63f"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_fortuna.yaml",
+          "size": 5995,
+          "sha256": "0b9310117624c40872498ba1f1ce6667d35a27a5fab687bd1844746103bfe69e"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_great_fox.yaml",
+          "size": 3610,
+          "sha256": "4b9e533a6bbbd7e736dd5e0fb0b2b462c53d7662b0854134b7711bc270253ef1"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_katina.yaml",
+          "size": 5885,
+          "sha256": "f9d0ff725ba87f6535851587e258f8517d5b3a265f3ca421da1efeb032b0fb62"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_landmaster.yaml",
+          "size": 3076,
+          "sha256": "ba6ca17661d94df0c3752c903bdab2c92703ebf94868cd2e50f38b8e51494639"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_logo.yml",
+          "size": 303,
+          "sha256": "fe45a600fbb2b68054ee2fac029902160f1709cce9bc97cd061f0efa634fc6a5"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_macbeth.yaml",
+          "size": 29988,
+          "sha256": "2b12ecd7d1820613ff0bb25733b47a5ed24b51187e8ccf6cfcfd4f4695518b1f"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_map.yaml",
+          "size": 22162,
+          "sha256": "b59737831d72eceabdf70ee1f35c9382c9a3a308200dba6df5e14781bbf20f8b"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_meteo.yaml",
+          "size": 10718,
+          "sha256": "ef4338084aad4fcaec55c890c937df2732385a0455e66fdc6d22b1fae3fa0f63"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_option.yaml",
+          "size": 8685,
+          "sha256": "ad2fcdd44c36f225018ca06b0c822277ac5a8520e45114fbe2ec73137fdfbff2"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_radio.yaml",
+          "size": 4031,
+          "sha256": "9cfb110fed1d708b95e72a684f2f4a1c04b32c0137aadaa193d4dd71b6837085"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_sector_x.yaml",
+          "size": 9512,
+          "sha256": "95086e8225069df18fdb77fd019cb21081338eb115bf1b6a45bc62bd3a943879"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_sector_y.yaml",
+          "size": 11370,
+          "sha256": "30ae0b773bc97b7c36f3d04c552136e6b4e3496c4d919b18fa95902ce29f6804"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_sector_z.yaml",
+          "size": 6011,
+          "sha256": "66ebb0459d949e8ad87adfaf6a2d34381b9ef51198ef8b47f22322b88bfac49d"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_solar.yaml",
+          "size": 7036,
+          "sha256": "00a8b1d98a6b108cc472c2ffb0089f0f763e7daff4f740379ad238a38aaea427"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_star_wolf.yaml",
+          "size": 4402,
+          "sha256": "1834e50d49403f63304124b821db743b389d3ad7e784c2d2b18d023c7bdc7edb"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_text.yaml",
+          "size": 14256,
+          "sha256": "969e2259c5b591514e10c438b8bca228e3cefbb64aedeef215e4dfedf77fff29"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_titania.yaml",
+          "size": 5440,
+          "sha256": "14598478b0b5d4d44365b1dc9ad1777189e4bfd21198e3f88c6695fa0847e8e8"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_title.yaml",
+          "size": 15516,
+          "sha256": "96abd4575788e346d1bfbf8b40bb562b739da07e494b1704a1c5e2c4b6ec1d71"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_training.yaml",
+          "size": 2880,
+          "sha256": "ba47dee8654fc74969baa021d1207e5beec96904167fc439ea3e16acb53ed7f7"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_ve1_boss.yaml",
+          "size": 7661,
+          "sha256": "b6f82c8074a43d5d8522d2ba2eb10ad699694ef1943ca635136af102709c704f"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_venom_1.yaml",
+          "size": 6195,
+          "sha256": "5969457f3bc995c140884e85e910e1905bc106b8ed1f8bbbd9404ab2619f4c64"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_venom_2.yaml",
+          "size": 6555,
+          "sha256": "a49193e7752b83b6d3d90abfafffb8177c79c0923ea8bd5c4ad4b675efce90cb"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_versus.yaml",
+          "size": 30366,
+          "sha256": "212d75e825167243b864f0478be8d59a2e28cf179687361d4b32158a4f69f126"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_vs_menu.yaml",
+          "size": 8896,
+          "sha256": "fc6f1245a2e8327fc2bd0331b9701f44bcc3303d36d0781f0124790065243bee"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_warp_zone.yaml",
+          "size": 1185,
+          "sha256": "f9b6476a15669235c598611e20b4279eea7a2790845c365abb042edcda183f82"
+        },
+        {
+          "path": "assets/yaml/us/rev0/ast_zoness.yaml",
+          "size": 17606,
+          "sha256": "82dc05d47d6f3b8915f74e40f9831b0461b3c24b725b7969d35fb8d10e774dfe"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_7_ti_1.yaml",
+          "size": 8660,
+          "sha256": "31f5557673e3ba97b9ff0482f2d058605181e32b6ad546fa6c0634b7dcbbd83c"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_7_ti_2.yaml",
+          "size": 2280,
+          "sha256": "06082964a6090dda6ed867379d1fac83be5da4e2eb2c0db1aecc3b066ec3c46a"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_8_ti.yaml",
+          "size": 3370,
+          "sha256": "4755f47ed56b74944e4f40379eabcd2a39690188565157f09629156685e11aea"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_9_ti.yaml",
+          "size": 2075,
+          "sha256": "61e1223c3a93856ed2ba36406f8515f96db6ed8205465e3a7c23840bc0a52909"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_A_ti.yaml",
+          "size": 1815,
+          "sha256": "50b59b41b20e57eceab1200178db1b5bc665d29306601b666437c8cda6ed217b"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_allies.yaml",
+          "size": 3923,
+          "sha256": "4298f5b63c4b21a4438eb14efee2196aab09be7bd1156aef0f940df71ca9f078"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_andross.yaml",
+          "size": 8978,
+          "sha256": "c28bfa239767760ba942b80de3ba25c831110cdf5ab65498818a8538c05a0a50"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_aquas.yaml",
+          "size": 23857,
+          "sha256": "2d3689a0a2bdf4ce7f2238843aaedcdce890777aec2b390962fa03103ea0ab38"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_area_6.yaml",
+          "size": 9324,
+          "sha256": "0846e278826de518e45a78c639af6506669e2afcb7fd54ffbc5e88e2611bd6ea"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_arwing.yaml",
+          "size": 7457,
+          "sha256": "19bb7ca0066d087890cd2ad1c7c7792cf3b54699853dd3193639759af55a5e0f"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_audio.yaml",
+          "size": 801,
+          "sha256": "846d0eecb34b10d6376662ab75ae43754e39dc8b36da434e708f40b78c5713a3"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_bg_planet.yaml",
+          "size": 4725,
+          "sha256": "9509a9f6a853411592e6ca5184698431ba47701b04e174c7b6b3e760cd374ec6"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_bg_space.yaml",
+          "size": 3314,
+          "sha256": "9401501395797541e9a632c33d3efb1003857cbd6c3c9d84bb96f8cd3915f191"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_blue_marine.yaml",
+          "size": 3524,
+          "sha256": "8ace0ed631103f70785e75199e3be32fad82e21d442e2ee3abd46040e427cc6a"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_bolse.yaml",
+          "size": 6498,
+          "sha256": "fdb3f5ef28add10b03357efa1dee08789bf6137ed1f3d947d7a0b7979bc78cb4"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_common.yaml",
+          "size": 35788,
+          "sha256": "1996a319bfb152363531ab571c9db9f2543307edca0ba1a5990c8a23cbbfa3d8"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_corneria.yaml",
+          "size": 18904,
+          "sha256": "33e48abce3cfb3d0476dd3a38f3a01eeaf9c1d0fc0f9397446bb8fc484bcc849"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_ending.yaml",
+          "size": 6610,
+          "sha256": "a465ed53a602f9264c864f64758ac846e0865200bc122ddc1be7b07ac9b85066"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_ending_award_back.yaml",
+          "size": 328,
+          "sha256": "06f83560c1b20e7826353ac2a47f21c192b16a38e58cd8c026705c36d86da8d1"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_ending_award_front.yaml",
+          "size": 329,
+          "sha256": "0e9c3b9f47a0e9eee8d1e2d8c6f5e515fd700997b9f80e25e1b251807a26f6cd"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_ending_expert.yaml",
+          "size": 472,
+          "sha256": "7f1e25cc891ab9adb44074f7c8427f135531b8d25cb380657d5d4ce99fb43dd1"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_enmy_planet.yaml",
+          "size": 4173,
+          "sha256": "af43b60ef6533e824935cee25c3b563d8a6055d0d0e4b67ceddb835673d75ae7"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_enmy_space.yaml",
+          "size": 4708,
+          "sha256": "999e71b0ec7c1da4925b4eecc906195bfc72ade83b10456c91f7f6e5f57d8f45"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_font_3d.yaml",
+          "size": 2913,
+          "sha256": "3524e0ca7b7fee5fa4643573fa590f77b71d6507f4ebb2d518e38513c30a906e"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_fortuna.yaml",
+          "size": 5995,
+          "sha256": "e68038a80b3678c5df663360291ebacb094e3e21e37ba1f60b0ebd0c71ad4d5d"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_great_fox.yaml",
+          "size": 3610,
+          "sha256": "4eb17a1ea30e3ac7b58a205c8da250a5a0cb2965f6e8c8b8c809151bdd575f84"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_katina.yaml",
+          "size": 5885,
+          "sha256": "dbefa0097ed0bba87668d4f5b637ccd2a957fb85942cdcf45670ad9e40002127"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_landmaster.yaml",
+          "size": 3076,
+          "sha256": "5b212acdcf008e5a9d39869219476a86fd8cae089f8da9f184199622162a8211"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_logo.yml",
+          "size": 303,
+          "sha256": "b82b76d6dd3c692c76867219995757f9f4259c12d127b89ef9c737f9db378e5a"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_macbeth.yaml",
+          "size": 29988,
+          "sha256": "4ee3ac7b638b1e51f6bcd07063bce7883a3560be90c5d86689e90c2125cf2e47"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_map.yaml",
+          "size": 22162,
+          "sha256": "4dea69efdf75d4bc0bba7327ffad89709b4fe7564f3edc418e3ed85180ce111f"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_meteo.yaml",
+          "size": 10718,
+          "sha256": "07e409bfefbf40e531d16603b4a6304956034db5346fffb9263a2fbb1943c7da"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_option.yaml",
+          "size": 8685,
+          "sha256": "8d418dc96bcfd755f7345c10d430a402963d3b77ef2309229023a8309b6087b6"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_radio.yaml",
+          "size": 4031,
+          "sha256": "06de268030e3c421f1908ea0cca3c4dac34a695633708f07c10aada4e54c80b1"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_sector_x.yaml",
+          "size": 9512,
+          "sha256": "9903c3dff2c7e6588f3eb573ca1faddb2f90a5120e0539f8f88bc592b3d2858d"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_sector_y.yaml",
+          "size": 11370,
+          "sha256": "8e927183a43171c5f9927259b242d98b87f145c29d851755f8bcadf37d0c9f75"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_sector_z.yaml",
+          "size": 6011,
+          "sha256": "afbd9ecdba29048595d398f14a0cacf3773d1e92c4d7ebccac1537886ea90c06"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_solar.yaml",
+          "size": 7036,
+          "sha256": "5bca9980c0a9ac93eeff839cfa739876ef79b846ffd78693f37b4b3f4ac002a2"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_star_wolf.yaml",
+          "size": 4402,
+          "sha256": "645744acb334228ba6ad8412a656e24a3db5cdc232bbabcacc1c0c3a31f4e1ae"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_text.yaml",
+          "size": 14256,
+          "sha256": "a2be1f883bc682440eafffa226e54832980105a0d094fe4beb79b1588314f549"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_titania.yaml",
+          "size": 5440,
+          "sha256": "ff1fedf6b6dd25054213ccb9a8237fa5046c5414c4b50880a8e65773326702c1"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_title.yaml",
+          "size": 15516,
+          "sha256": "1355a1b63d15eaa56dbb954c412694dbe82835001fede38c973a9a77671da819"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_training.yaml",
+          "size": 2880,
+          "sha256": "334f0140e23c5bbb75d2598d52c1608457c9d00faa98ff2982185a1195627085"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_ve1_boss.yaml",
+          "size": 7661,
+          "sha256": "6d4252f80f2fcd6ade05fd2c45a7d0b4cb8b7a6874691ff607ab7e0abde92e2f"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_venom_1.yaml",
+          "size": 6195,
+          "sha256": "7b38cc09c4b28df740a199ea3298dd0b00b273699773bcd38acc2f21080a6eb1"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_venom_2.yaml",
+          "size": 6555,
+          "sha256": "16b7aada80f44f603802c7513173a9fb14c4e3e518c4c561783bdd6d1b621cb4"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_versus.yaml",
+          "size": 30366,
+          "sha256": "64b84fee252d3a12fb18f19da4db0b8f718f4fc49011921d5d3b5f9f445e8152"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_vs_menu.yaml",
+          "size": 8896,
+          "sha256": "bbf1dcc6080b0af57c1d9641ab606f86290c6bd764ae9350538ac34645c0875e"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_warp_zone.yaml",
+          "size": 1185,
+          "sha256": "caf2253c546eee8bcbae1a066241875850e83a4ac894ece59a5f8a8f9a6501f7"
+        },
+        {
+          "path": "assets/yaml/us/rev1/ast_zoness.yaml",
+          "size": 17606,
+          "sha256": "31aee8ea81122d60e3ae21d0d891693987a483db0fd803e5997b81c574c834ac"
+        },
+        {
+          "path": "config.yml",
+          "size": 4318,
+          "sha256": "2f7f71139a248b44bad7d79d0c7ad3919c83484697e64fd3a263838f788ce516"
         },
         {
           "path": "starship.o2r",
           "size": 10536,
-          "sha256": "b78b0ba24025c270fe46ec8af81d97c8ec25518095bf2e5df4d46140ef7e68e9"
+          "sha256": "ddcdad3e58236dc16e81119bd1c81d603d25fb444b82901c2c7dedb9897c8967"
         },
         {
           "path": "starship.xex",
-          "size": 13668352,
-          "sha256": "ae42acd90ff6902c05ebeaa75c79bcd1d4882277b9342c5e32896f7707e3dddd"
+          "size": 15663104,
+          "sha256": "49b7cb67588ff1bb0e6b61b9d7c4199eee9b53da6aa5a4348002d8011fe89d0d"
         }
       ],
       "screenshot_sha256": "74c2e7b93785d58563a748dba3b2765b3cfbfa8525168f3e41602416aaa442b9"
