@@ -823,6 +823,80 @@
       "screenshot_sha256": "74c2e7b93785d58563a748dba3b2765b3cfbfa8525168f3e41602416aaa442b9"
     },
     {
+      "id": "ctr360",
+      "name": "CTR360",
+      "author": "dougieprishpreed",
+      "category": "ports",
+      "sentence": "The PC port of a classic PlayStation kart racer, at 1280x720 and up to 60 fps.",
+      "needs": "assets\\ctr-u.bin from the PC converter",
+      "changes": "In the store, which Back + Start returns to; makes ctr360.ini on its first start.",
+      "source": "https://github.com/dougieprishpreed/ctr360",
+      "license": "GPL-3.0",
+      "screenshot": "shots/ctr360.png",
+      "launch": "default.xex",
+      "title_id": "43545233",
+      "version": "1.0.3.0",
+      "version_number": 268436224,
+      "package": {
+        "url": "https://github.com/dougieprishpreed/ctr360/releases/download/v1.0.3/ctr360-1.0.3.0.zip",
+        "size": 1104285,
+        "sha256": "4b510db3cfc005af24a1a64c95cb5a524ae9075894a471f6d7a768814072d716"
+      },
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "size": 35823,
+          "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+        },
+        {
+          "path": "README.txt",
+          "size": 391,
+          "sha256": "623ab4aeb79409c4fedc336b496172e8f97d36a43996e62f08ce6e4c48e762aa"
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.txt",
+          "size": 6183,
+          "sha256": "5a4e5c7b406c6dce376f32f59183b53001db82d7b9596c671e3c03e7beb6fee2"
+        },
+        {
+          "path": "ctr360.example.ini",
+          "size": 1169,
+          "sha256": "5505a61e23e120d18ba335bf90bf55b2ec082b0f3033f89f85afb7b4ba9b396e"
+        },
+        {
+          "path": "default.xex",
+          "size": 2134016,
+          "sha256": "9611c0e63bdf370f25536ec85e0f4560ca266c8f89ab1712bd5dbc899a5a1e49"
+        },
+        {
+          "path": "licenses/GCC-runtime-exception.txt",
+          "size": 3324,
+          "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+        },
+        {
+          "path": "licenses/GPL-3.0.txt",
+          "size": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        },
+        {
+          "path": "licenses/newlib.txt",
+          "size": 78388,
+          "sha256": "f3afe48e4bc6ed8466a42e9dacb6be1d8f9cbf5aac15cb8e474a5ccde8b40ef6"
+        },
+        {
+          "path": "licenses/vulkan4xenon.txt",
+          "size": 1061,
+          "sha256": "61f498176b451c424b17b2550bfa64800db695936e58e67dc05feff68fce69de"
+        },
+        {
+          "path": "licenses/xsdk.txt",
+          "size": 1061,
+          "sha256": "61f498176b451c424b17b2550bfa64800db695936e58e67dc05feff68fce69de"
+        }
+      ],
+      "screenshot_sha256": "f7d5e23590c8fd685fcc978df0506a7a5890b822300253c912433d624321d219"
+    },
+    {
       "id": "homebrew-app-store",
       "name": "Homebrew App Store",
       "author": "xenosworks",
