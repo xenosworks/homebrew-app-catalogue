@@ -60,6 +60,85 @@
       "screenshot_sha256": "a6a720b1a649658c79a0b3c112163729da3af7c646b7dcd300fcb7a573f8b6f9"
     },
     {
+      "id": "balatro360",
+      "name": "Balatro360",
+      "author": "dougieprishpreed",
+      "category": "ports",
+      "sentence": "The poker roguelike, run from your own copy of the PC game at 1280x720.",
+      "needs": "Your Balatro.exe from Steam beside it",
+      "changes": "The first release.",
+      "source": "https://github.com/dougieprishpreed/balatro360",
+      "license": "MIT",
+      "screenshot": "shots/balatro360.png",
+      "launch": "default.xex",
+      "title_id": "42333630",
+      "version": "1.0.0.0",
+      "version_number": 268435456,
+      "package": {
+        "url": "https://github.com/dougieprishpreed/balatro360/releases/download/v1.0.0/balatro360-1.0.0.0.zip",
+        "size": 2329666,
+        "sha256": "b938c69e389e63c1ef02cdc44186717ff396f912630b769b232d53fa628941d4"
+      },
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "size": 1094,
+          "sha256": "f8bf4821e9a69de09a979f37589be9d6e7df13e40f238fb5b70fc6afd0ba4c1a"
+        },
+        {
+          "path": "THIRD_PARTY.md",
+          "size": 1882,
+          "sha256": "32705b1f5e78ed11d36d1b5cd4ff16bd805d89860ef910746e7ed0a8fe42f23c"
+        },
+        {
+          "path": "default.xex",
+          "size": 5468160,
+          "sha256": "972b1bca239b51a79a510b2bfd911148089faa9866ada15b55c34389eb129c7d"
+        },
+        {
+          "path": "licenses/GCC-runtime-exception.txt",
+          "size": 3324,
+          "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+        },
+        {
+          "path": "licenses/GPL-3.0.txt",
+          "size": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        },
+        {
+          "path": "licenses/glslang.txt",
+          "size": 54615,
+          "sha256": "17e70c676e1521ff3e4686f04a2053d93a7e28a33be8de7ec37ab0ff72feb677"
+        },
+        {
+          "path": "licenses/luajit.txt",
+          "size": 2935,
+          "sha256": "6cda3076a8c09b31bb1f90da614ea89e7ee194589626eeac613e522849604e47"
+        },
+        {
+          "path": "licenses/newlib.txt",
+          "size": 78388,
+          "sha256": "f3afe48e4bc6ed8466a42e9dacb6be1d8f9cbf5aac15cb8e474a5ccde8b40ef6"
+        },
+        {
+          "path": "licenses/vulkan4xenon.txt",
+          "size": 1061,
+          "sha256": "61f498176b451c424b17b2550bfa64800db695936e58e67dc05feff68fce69de"
+        },
+        {
+          "path": "licenses/xsdk-third-party.md",
+          "size": 5459,
+          "sha256": "f92f9b39349dd6aad17351729a9d3b87782d545e47c50ea8a2bfedb6f762868f"
+        },
+        {
+          "path": "licenses/xsdk.txt",
+          "size": 1061,
+          "sha256": "61f498176b451c424b17b2550bfa64800db695936e58e67dc05feff68fce69de"
+        }
+      ],
+      "screenshot_sha256": "7c9887037a9628e4691747d5858858f30c333434eaf4d3c4499d52be3f052275"
+    },
+    {
       "id": "dusklight",
       "name": "Dusklight",
       "author": "xenosworks",
