@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "serial": 3,
+  "serial": 4,
   "url": "https://xenosworks.github.io/homebrew-app-catalogue/catalogue.json",
   "categories": [
     {
@@ -27,18 +27,18 @@
       "category": "emulators",
       "sentence": "A PlayStation emulator with a recompiler, playing your own disc images at full speed.",
       "needs": "A PS1 BIOS beside it, disc images in games\\",
-      "changes": "The first release in the store.",
+      "changes": "DualShock sticks and rumble, analog or digital with Y or in the pause menu; saves now keep.",
       "source": "https://github.com/xenosworks/swanstation-xenon",
       "license": "GPL-3.0",
       "screenshot": "shots/swanstation.png",
       "launch": "swanstation.xex",
       "title_id": "58535353",
-      "version": "0.1.0.0",
-      "version_number": 16777216,
+      "version": "0.1.1.0",
+      "version_number": 16777472,
       "package": {
-        "url": "https://github.com/xenosworks/swanstation-xenon/releases/download/xenon-0.1.0.0/swanstation-0.1.0.0.zip",
-        "size": 2196420,
-        "sha256": "327c8b65947c2eb97989ae997856d05113d864b1773cc3519e9da9fc9907e056"
+        "url": "https://github.com/xenosworks/swanstation-xenon/releases/download/xenon-0.1.1.0/swanstation-0.1.1.0.zip",
+        "size": 2199302,
+        "sha256": "4a6844861dd4318fe42d65754feef4d3f822d98fa1acee4b6627626c5a224957"
       },
       "files": [
         {
@@ -54,7 +54,7 @@
         {
           "path": "swanstation.xex",
           "size": 4968448,
-          "sha256": "777af1706f709be229fa890155dddc66c0687d3cce4ed84d38b49baff9f93709"
+          "sha256": "d9ed883fe530ed6b143ed2fbcbe70c9f0b9df0c813d676c216f3a43dfab053e1"
         }
       ],
       "screenshot_sha256": "a6a720b1a649658c79a0b3c112163729da3af7c646b7dcd300fcb7a573f8b6f9"
