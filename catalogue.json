@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "serial": 7,
+  "serial": 8,
   "url": "https://xenosworks.github.io/homebrew-app-catalogue/catalogue.json",
   "categories": [
     {
@@ -27,18 +27,18 @@
       "category": "emulators",
       "sentence": "A PlayStation emulator with a recompiler, playing your own disc images at full speed.",
       "needs": "A PS1 BIOS beside it, disc images in games\\",
-      "changes": "DualShock sticks and rumble, analog or digital with Y or in the pause menu; saves now keep.",
+      "changes": "Long sessions no longer run memory down: large freed blocks go back to the console.",
       "source": "https://github.com/xenosworks/swanstation-xenon",
       "license": "GPL-3.0",
       "screenshot": "shots/swanstation.png",
       "launch": "swanstation.xex",
       "title_id": "58535353",
-      "version": "0.1.1.0",
-      "version_number": 16777472,
+      "version": "0.1.2.0",
+      "version_number": 16777728,
       "package": {
-        "url": "https://github.com/xenosworks/swanstation-xenon/releases/download/xenon-0.1.1.0/swanstation-0.1.1.0.zip",
-        "size": 2199302,
-        "sha256": "4a6844861dd4318fe42d65754feef4d3f822d98fa1acee4b6627626c5a224957"
+        "url": "https://github.com/xenosworks/swanstation-xenon/releases/download/xenon-0.1.2.0/swanstation-0.1.2.0.zip",
+        "size": 2202752,
+        "sha256": "9eae76effddb10a1c1b4c7e5f852b64018842b01eea7c00a3c31c993a51a0d25"
       },
       "files": [
         {
@@ -53,8 +53,8 @@
         },
         {
           "path": "swanstation.xex",
-          "size": 4968448,
-          "sha256": "d9ed883fe530ed6b143ed2fbcbe70c9f0b9df0c813d676c216f3a43dfab053e1"
+          "size": 4980736,
+          "sha256": "0ee6c6031462095ae137554fd26e7087e7b88fe0781427f0eec8dcb291521d98"
         }
       ],
       "screenshot_sha256": "a6a720b1a649658c79a0b3c112163729da3af7c646b7dcd300fcb7a573f8b6f9"
@@ -359,18 +359,18 @@
       "category": "ports",
       "sentence": "The PC port of a classic N64 space shooter, at 1280x720 and the game's own 30 fps.",
       "needs": "Your US 1.0 or 1.1 ROM beside it, once",
-      "changes": "Makes sf64.o2r from your ROM on its first run, so no PC is needed.",
+      "changes": "Long sessions no longer run memory down: large freed blocks go back to the console.",
       "source": "https://github.com/xenosworks/starship-xenon",
       "license": "CC0-1.0",
       "screenshot": "shots/starship.png",
       "launch": "starship.xex",
       "title_id": "53544152",
-      "version": "0.2.0.0",
-      "version_number": 33554432,
+      "version": "0.2.1.0",
+      "version_number": 33554688,
       "package": {
-        "url": "https://github.com/xenosworks/starship-xenon/releases/download/xenon-0.2.0.0/starship-0.2.0.0.zip",
-        "size": 6783536,
-        "sha256": "5c004dc8338897ca8da08557561972ed4a8b25598167748637991537bd93437b"
+        "url": "https://github.com/xenosworks/starship-xenon/releases/download/xenon-0.2.1.0/starship-0.2.1.0.zip",
+        "size": 6793785,
+        "sha256": "b41c2d8ce53ad5d8386b47c5042114c8b14cc04d0ebd922fb4799c514244eed6"
       },
       "files": [
         {
@@ -891,12 +891,12 @@
         {
           "path": "starship.o2r",
           "size": 10536,
-          "sha256": "ddcdad3e58236dc16e81119bd1c81d603d25fb444b82901c2c7dedb9897c8967"
+          "sha256": "12f0460e88a721032512969ad448ca1b3adc3636e63d9f202c4f5a8f60d0f7ad"
         },
         {
           "path": "starship.xex",
-          "size": 15663104,
-          "sha256": "49b7cb67588ff1bb0e6b61b9d7c4199eee9b53da6aa5a4348002d8011fe89d0d"
+          "size": 15683584,
+          "sha256": "fc2591f110e1bb099378b3b64d5418418704f22e8864b87de22fffb82cf24ef8"
         }
       ],
       "screenshot_sha256": "74c2e7b93785d58563a748dba3b2765b3cfbfa8525168f3e41602416aaa442b9"
