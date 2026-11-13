@@ -66,18 +66,18 @@
       "category": "ports",
       "sentence": "The poker roguelike, run from your own copy of the PC game at 1280x720.",
       "needs": "Your Balatro.exe from Steam beside it",
-      "changes": "The first release.",
+      "changes": "Smoother Planet, Tarot and Spectral packs; Pixel Art Smoothing no longer crashes.",
       "source": "https://github.com/dougieprishpreed/balatro360",
       "license": "MIT",
       "screenshot": "shots/balatro360.png",
       "launch": "default.xex",
       "title_id": "42333630",
-      "version": "1.0.0.0",
-      "version_number": 268435456,
+      "version": "1.0.3.0",
+      "version_number": 268436224,
       "package": {
-        "url": "https://github.com/dougieprishpreed/balatro360/releases/download/v1.0.0/balatro360-1.0.0.0.zip",
-        "size": 2329666,
-        "sha256": "b938c69e389e63c1ef02cdc44186717ff396f912630b769b232d53fa628941d4"
+        "url": "https://github.com/dougieprishpreed/balatro360/releases/download/v1.0.3/balatro360-1.0.3.0.zip",
+        "size": 2343070,
+        "sha256": "32bff40f5034b5b6c7967c2d13eb677b4f34443e00f27981dc4e9df4c08c22d8"
       },
       "files": [
         {
@@ -92,8 +92,8 @@
         },
         {
           "path": "default.xex",
-          "size": 5468160,
-          "sha256": "972b1bca239b51a79a510b2bfd911148089faa9866ada15b55c34389eb129c7d"
+          "size": 5496832,
+          "sha256": "0e979a8c5bab831a56b25c162d6a00a8ef17e578d746a7d17e980c3a7f3feb15"
         },
         {
           "path": "licenses/GCC-runtime-exception.txt",
